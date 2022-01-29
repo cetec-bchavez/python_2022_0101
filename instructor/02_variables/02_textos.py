@@ -19,7 +19,7 @@ print(nombre.replace('Centro','Universidad'))
 #nombre = nombre.replace('Centro','Universidad')
 print(nombre)
 
-nombre2='Maria,Ana,Veronica,Luizana,Luis'
+nombre2='Maria,Ana,Veronica,Luizana,Luis,Carlos'
 
 palabras = nombre.split(' ')
 palabras_nombres = nombre2.split(',')
@@ -31,12 +31,15 @@ for palabra in palabras_nombres :
     print('Mujer Actual = ',palabra)    
 
 
-print('--------------------- Ejercicio Pregunta -------------------------')
+print('--------------------- Ejercicio 1 Pregunta -------------------------')
 
 for palabra in palabras_nombres :
-    print('Mujer Actual = ',palabra)
+    if palabra != 'Luis' and palabra != 'Carlos' :
+        print('Mujer Actual = ',palabra)
+    else :
+        print('Hombre Actual = ',palabra)
 
-print('--------------------- Ejercicio Nombre Completo -------------------------')
+print('--------------------- Ejercicio 2 Nombre Completo -------------------------')
 
 nombres3='Maria Perez,Ana Sanchez,Veronica Gutierrez,Luizana Perez,Luis Perez'
 palabras_nombres3 = nombres3.split(',')
