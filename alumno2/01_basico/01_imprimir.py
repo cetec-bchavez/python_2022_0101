@@ -13,4 +13,4 @@ edad:int=15
 print(nombre)
 print("oda: " +nombre+ ", edad:" +str(edad)) 
 print(f"oda {nombre} tu edad es {edad}" )
- hi
+ 
