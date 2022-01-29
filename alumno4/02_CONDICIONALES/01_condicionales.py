@@ -11,4 +11,7 @@ else :
 
 total_venta=venta+(venta*comision)  
 print('Total Venta =',total_venta,', Comision = ',comision)
-      
+   
+   
+print('---------------------- ternario -----------------------')
+
