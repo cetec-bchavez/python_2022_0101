@@ -1,0 +1,10 @@
+01) Modificar 02/variables/03_operadores
+
+    input() --> Ingresar Decimales
+        numero1
+        numero2
+        Cast    float(), str()
+
+02) Modificar 03_condicionales/01_condicionales.py
+
+    Empezar las preguntas desde abajo
