@@ -28,6 +28,10 @@ for palabra in palabras_nombres :
 
 nombres3= 'Eduardo Clavijo,Gaby Clavijo'
 palabras_nombres3=nombres3,split(',')
+
+    
+    
+    
     
 
 
