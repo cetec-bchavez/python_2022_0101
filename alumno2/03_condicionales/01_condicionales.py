@@ -20,7 +20,7 @@ comision=0.1 if venta>=3000 else 0.01
 totalVenta = int(venta) + int(venta*comision)
 print(f"total venta= {totalVenta} comision= {comision} ")
 
-print("---Ejercicio  IF  ELIF---")
+print("---Ejercicio  IF  ELIF---") #para evitar usar muchos if else
 
 venta= 3000
 
