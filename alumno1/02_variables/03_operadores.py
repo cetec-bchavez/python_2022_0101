@@ -24,3 +24,13 @@ numero1+=100
 #numero1= numero1 + 100
 
 print(numero1)
+
+contador=0
+
+contador+=1
+contador+=1
+contador+=1
+
+print(contador)
+
+
