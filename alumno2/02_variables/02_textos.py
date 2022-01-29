@@ -33,6 +33,20 @@ for panchit in nombresito:         #aqui hay 3 terminos luego se separar con spl
     print("nombres +",panchit)
 
 
+print("ejercicio nombre completo")
+nombres2="pedro ramiro,pablo alonzo,jose mendoza"
+nombresito2=nombres2.split(",")                     #separa todos los terminos en 3 terminos
+
+for var in nombresito2:               #for VARIABLEtemporal in VARIABLEquealmacenadatos
+    print("nombre" + var)             #imprime los 3 terminos anteriores
+    nombre=var.split(" ")[0]          #separa el nombre del apellido y guarda en NOMBRE el termino antes del espacio
+    apellido=var.split(" ")[1]        #separa el nombre del apellido y guarda en NOMBRE el termino despues del espacio
+    
+    print("nombre + ", nombre)
+    print("apellido + ", apellido)
+
+
+
 
 
 
