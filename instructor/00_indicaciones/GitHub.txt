@@ -1,0 +1,11 @@
+1) Crear Cuenta en GitHub
+	https://github.com/
+
+2) Descargar e Instalar GitHub Desktop
+	https://desktop.github.com/
+
+3) Clonar Proyecto
+	URL:
+	https://github.com/cetec-bchavez/python_2022_0101.git
+
+	Subir Ejercicios
