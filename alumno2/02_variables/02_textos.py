@@ -31,6 +31,18 @@ nombresito=nombres.split(",")       #split separa los terminos de "pedro,pablo,p
 
 for panchit in nombresito:         #aqui hay 3 terminos luego se separar con split
     print("nombres +",panchit)
+print("ejercicio nombre completo")
+nombres2="pedro ramiro,pablo alonzo,jose mendoza"
+nombresito2=nombres2.split(",")
+
+for var in nombresito2:
+    print("nombre" + var)
+    nombre=var.split(" ")[0]
+    apellido=var.split(" ")[1]
+    
+    print("nombre + ", nombre)
+    print("apellido + ", apellido)
+
 
 
 
