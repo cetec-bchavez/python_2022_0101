@@ -32,4 +32,16 @@ for palabra in palabras_nombres3 :
     print('Mujer nombre simple -', palabra.split(' ')[0])
     print('Mujer apellido simple -', palabra.split(' ')[1])
 
+print('------ Tarea ------')
 
+nombre4 = ('Jhoselyn Llano,Miranda Lopez,Carlos Sadness,Alexander Delgado')
+palabras_nombre4 = nombre4.split(',')
+
+for palabra in palabras_nombre4 :   
+    print('Nombres completos= ',palabra)
+    print('Nombre mujer= ',palabra)
+    print('Nombre simple= ',palabra(' ')[0])
+    print('Apellido simple= ',palabra(' ')[1])
+    print('Nombre hombre=',palabra)
+    print('Nombre simple',palabra(' ')[0])
+    print('Apellido simple= ',palabra(' ')[1])
