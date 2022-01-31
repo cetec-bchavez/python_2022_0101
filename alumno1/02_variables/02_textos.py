@@ -39,5 +39,4 @@ palabras_nombre4 = nombre4.split(',')
 
 for palabra in palabras_nombre4 :   
     print('Nombres completos= ',palabra)
-    print('Nombre mujer= ',palabra)
 
