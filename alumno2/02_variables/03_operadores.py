@@ -16,11 +16,12 @@ from typing import cast
 
 num1:int=0
 num2:int=0
-num3:int=0
+num3 = float(True)
 
 print("Ingrese el numero decimal")
-input(num3)
+num3=input()
 
+print(float(num3))
 
 
 #num1+=10    es igual a   num1= num1+10 total 60
