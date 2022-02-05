@@ -19,15 +19,18 @@ def calcular_promedio_lista(valores):  # 1) Ingredientes
 
 
 promedio=0.0
-notas = [5,4,7,9,2,3,10] #Fila de Excel, Columna de Excel
+
+nota_actual=0.0
+notas = [] #[5,4,7,9,2,3,10]
+
+nota_actual = input('Ingrese Nota: ') # 1 dato, 1 celda, 1 variable, texto-string
+
+notas.append(float(nota_actual))
 
 promedio = calcular_promedio_lista(notas)
 
 print(promedio)
 print(notas)
 
-print('Primera Nota',notas[0]) #Celda de Excel
-print('Tercera Nota',notas[2]) #Celda de Excel
-
-notas[0]=8 #Celda de Excel
-print('Nueva Primera Nota',notas[0]) #Celda de Excel
+print('Primera Nota',notas[0])
+#print('Tercera Nota',notas[2])
