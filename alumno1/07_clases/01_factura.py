@@ -11,7 +11,9 @@ class Factura:
         self.cantidad=cantidadx
         self.precio=preciox
         self.total=totalx
-
+    
+    def calcular_total(self):   
+        self.total = self.cantidad * self.precio
 
 facturas= []
 
@@ -21,6 +23,8 @@ factura2=Factura('Teclado',5.0,7.0,0.0)
 factura1.producto='Mouse Genius'
 factura2.producto='Teclado Inx'
 
+factura1.calcular_total()
+factura2.calcular_total()
 
 facturas.append(factura1)
 facturas.append(factura2)
@@ -35,4 +39,3 @@ print('------ Datos Facturas Todas ------')
 
 for facturax in facturas:   
     print(facturax.producto, facturax.total)
-    
