@@ -21,6 +21,7 @@ facturas=[] #Hoja Calculo completa (columnas, y filas de datos)
 factura1 = Factura('Mouse',5.0,7.0,0.0) # Fila factura1
 factura2 = Factura('Teclado',7.0,6.0,0.0) # Fila factura2
 
+#Columnas se cambian a Celdas
 factura1.producto='Mouse Genius' # Apuntamos a una Celda (producto) de fila factura1
 factura2.producto='Teclado Inx' # Apuntamos a una Celda (producto) de fila factura2
 
