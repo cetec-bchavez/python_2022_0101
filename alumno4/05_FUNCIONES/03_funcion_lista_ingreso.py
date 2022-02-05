@@ -1,4 +1,3 @@
-print('------------------------- Función Calculo con Variables----------------------------')
 def calcular_promedio_lista(valores): #ingrediente
     resultado = 0.0
     #resultado = (valor1+valor2)/2    #proceso
@@ -14,12 +13,14 @@ def calcular_promedio_lista(valores): #ingrediente
     return resultado     #resultado
 
 promedio = 0.0
-notas = [5,10,20,15,20] #filas o columnas de excel con varias variables
+
+nota_actual = 0.0
+notas = []
+nota_actual = input('Ingreso notas = ')
+notas.append(float(nota_actual))
 promedio = calcular_promedio_lista(notas)
 
 print(promedio)
 print(notas)
-print ('Primera nota',notas[0]) #como una celda de excel
-
 
 

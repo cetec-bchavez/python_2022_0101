@@ -17,4 +17,4 @@ suma = 0.0
 
 promedio = calcular_promedio(nota1,nota2)
 
-print (nota1,nota2,promedio)
+
