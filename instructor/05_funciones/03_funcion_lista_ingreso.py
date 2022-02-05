@@ -23,10 +23,10 @@ promedio=0.0
 nota_actual=0.0
 notas = [] #[5,4,7,9,2,3,10]
 
-nota_actual = input('Ingrese Nota: ') # 1 dato, 1 celda, 1 variable, texto-string
-
-notas.append(float(nota_actual))
-
+for x in range(3) :
+    nota_actual = input('Ingrese Nota: ') # 1 dato, 1 celda, 1 variable, texto-string
+    notas.append(float(nota_actual))
+    
 promedio = calcular_promedio_lista(notas)
 
 print(promedio)
