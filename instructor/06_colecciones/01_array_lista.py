@@ -7,6 +7,7 @@ provincias[0]='PICHINCHA'
 print('Cambio Primera Provincia -> ',provincias[0])
 
 provincias.append('Azuay')
+provincias.append('Azuay')
 print('Nueva Provincia -> ',provincias)
 
 print('Numero Provincias',len(provincias))
