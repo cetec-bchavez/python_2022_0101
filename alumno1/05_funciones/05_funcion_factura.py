@@ -1,5 +1,3 @@
-from re import T
-
 
 cantidad=0
 precio=0.0
@@ -21,6 +19,7 @@ def procesar_datos():
     total=cantidad * precio
 
 def mostrar_resultados():   
+    global cantidad,precio,total   
     print('Total: ',total)
 
 ingresar_datos()
