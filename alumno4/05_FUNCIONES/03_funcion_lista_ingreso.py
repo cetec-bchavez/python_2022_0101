@@ -16,8 +16,10 @@ promedio = 0.0
 
 nota_actual = 0.0
 notas = []
-nota_actual = input('Ingreso notas = ')
-notas.append(float(nota_actual))
+for x in range(3):  
+    nota_actual = input('Ingreso notas = ')
+    notas.append(float(nota_actual))
+    
 promedio = calcular_promedio_lista(notas)
 
 print(promedio)
