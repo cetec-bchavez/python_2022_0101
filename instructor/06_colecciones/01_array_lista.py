@@ -15,3 +15,7 @@ provincias.remove('Guayas')
 print('Quitar Provincia')
 print('Numero Provincias',len(provincias))
 print('Provincias Final -> ',provincias)
+
+print('Recorrer Provincias')
+for provincia in provincias :
+    print('Provincia =', provincia)
