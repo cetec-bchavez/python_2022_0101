@@ -7,7 +7,7 @@ def calc_promedio_lista(valores):
     for valor in valores:
         suma+=valor
 
-    resultado = suma/numero_valores
+    resultado = suma / numero_valores
 
     return resultado
 
@@ -15,7 +15,7 @@ promedio=0
 nota_actual=0
 notas = [] #[5,3,4,6,5,9,8,7]
 
-nota_actual=input("ingrese nota: ")   #solo para un dato, celda o variable
+nota_actual=input("ingrese nota:  \n")   #solo para un dato, celda o variable
 
 notas.append(float(nota_actual))
 
