@@ -16,7 +16,14 @@ def calcular_promedio_lista(valores):	#1) ingredientes
     return resultado  #3) Resultado
 
 promedio=0.0
-notas = [5,4,7,9,10]
+
+nota_actual= 0.0
+notas = [] #[5,4,7,9,10]
+
+nota_actual = input('ingrese nota: ') #ingresa dato, celda o variable, texto-string
+
+notas.append(float(nota_actual))
+
 
 promedio = calcular_promedio_lista(notas)
 
@@ -24,7 +31,3 @@ print(promedio)
 print(notas)
 
 print('Primera nota',notas[0])
-print('tercera nota',notas[2])
-
-notas[0]=8
-print('Nueva primera nota',notas[0])
