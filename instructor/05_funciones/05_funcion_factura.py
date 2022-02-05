@@ -18,6 +18,7 @@ def procesar_datos():
     total=cantidad * precio
 
 def mostrar_resultados():
+    global cantidad,precio,total
     print('Total=',total)
 
 
