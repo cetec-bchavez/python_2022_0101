@@ -1,7 +1,8 @@
-let provincias={'02':'Pichincha',
-            '04':'Guayas',
-            '06':'Carchi'
-            }
+let provincias=new Map([
+            ['02','Pichincha'],
+            ['04','Guayas'],
+            ['06','Carchi']
+            ])
 
 console.log('---------------- DICCIONARIO ----------------')
 
@@ -17,13 +18,13 @@ provincias['08']='Azuay'
 provincias['0802']='Azuay'
 console.log('Nueva Provincia -> ',provincias)
 
-console.log('Numero Provincias',len(provincias))
+console.log('Numero Provincias',provincias.lenght)
 
-del(provincias['04'])
+delete provincias['04']
 console.log('Quitar Provincia')
-console.log('Numero Provincias',len(provincias))
+console.log('Numero Provincias',provincias.lenght)
 console.log('Provincias Final -> ',provincias)
 
 console.log('Recorrer Provincias')
-for(codigo,provincia of provincias.items()) 
+for(let [codigo,provincia] of provincias.entries()) 
     console.log('Provincia =', codigo,provincia)
