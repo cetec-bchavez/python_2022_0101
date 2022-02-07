@@ -1,4 +1,4 @@
-let provincias=['Pichincha','Guayas','Carchi']
+const provincias=['Pichincha','Guayas','Carchi']
 console.log('Crear Provincias -> ',provincias)
 
 console.log('Primera Provincia -> ',provincias[0])

@@ -10,19 +10,18 @@ console.log('Crear Provincias -> ',provincias)
 
 console.log('Primera Provincia -> ',provincias.get('02'))
 
-provincias['02']='PICHINCHA'
+provincias.set('02','PICHINCHA')
 console.log('Cambio Primera Provincia -> ',provincias.get('02'))
 
-provincias['08']='Azuay'
-provincias['08']='Azuay'
-provincias['0802']='Azuay'
+provincias.set('08','Azuay')
+provincias.set('08','Azuay')
 console.log('Nueva Provincia -> ',provincias)
 
-console.log('Numero Provincias',provincias.lenght)
+console.log('Numero Provincias',provincias.size)
 
-delete provincias['04']
+delete provincias.delete('04')
 console.log('Quitar Provincia')
-console.log('Numero Provincias',provincias.lenght)
+console.log('Numero Provincias',provincias.size)
 console.log('Provincias Final -> ',provincias)
 
 console.log('Recorrer Provincias')

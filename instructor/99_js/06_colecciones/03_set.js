@@ -1,9 +1,10 @@
-let provincias=new Set(['Pichincha','Guayas'])
+let provincias=new Set(['Pichincha','Guayas','Carchi'])
 console.log('Crear Provincias -> ',provincias)
 
 //console.log('Primera Provincia -> ',provincias[0])
 
 //provincias[0]='PICHINCHA'
+
 
 /*
 for provincia in provincias :
@@ -19,11 +20,11 @@ provincias.add('Azuay')
 provincias.add('Azuay')
 console.log('Nueva Provincia -> ',provincias)
 
-console.log('Numero Provincias',provincias.lenght)
+console.log('Numero Provincias',provincias.size)
 
 provincias.delete('Guayas')
 console.log('Quitar Provincia')
-console.log('Numero Provincias',provincias.lenght)
+console.log('Numero Provincias',provincias.size)
 console.log('Provincias Final -> ',provincias)
 
 console.log('Recorrer Provincias')
