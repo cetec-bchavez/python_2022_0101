@@ -4,7 +4,6 @@ class Factura:
     precio=0.0
     total=0.0
     
-
     def __init__(self,productox,cantidadx,preciox,totalx):
         
         self.producto=productox
@@ -36,6 +35,6 @@ print('------ Datos Factura 2 ------')
 print(factura2.producto,factura2.total)
 
 print('------ Datos Facturas Todas ------')
-
 for facturax in facturas:   
     print(facturax.producto, facturax.total)
+
