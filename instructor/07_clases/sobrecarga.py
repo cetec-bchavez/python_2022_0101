@@ -22,7 +22,7 @@ class Estudiante(Persona): #Herencia (Persona)
         self.nota_promedio = nota_promedio1
 
     def mostrarDatos(self):
-        print(self.nombre,self.apellido)
+        print('Nombre=',self.nombre,'Apellido=',self.apellido)
         print('Promedio=',self.nota_promedio)
 
 print('------------------ PERSONA --------------')
